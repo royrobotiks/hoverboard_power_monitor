@@ -16,7 +16,7 @@ I've also programmed a visualizer in Processing 3.5.4. This program reads logfil
 
 ## Building the power monitor
 
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/modules.jpg" alt="modules" width="48%" height="48%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/case.jpg" alt="case" width="32%" height="32%">
+<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/modules.jpg" alt="modules" width="49%" height="49%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/case.jpg" alt="case" width="49%" height="49%">
 
 
 
