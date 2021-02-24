@@ -19,7 +19,7 @@ I've also programmed a visualizer in Processing 3.5.4. This program reads logfil
 The hardware consists mainly of modules which I slapped together on a perfboard. Here's the parts list:
 
 * Arduino Nano (clone)
-* DS1307 Realtime clock
+* DS1307 Realtime clock 
 * 1.8" SPI TFT 128x160 (KMR-1.8 SPI) TFT display with SD card slot
 * ACS 712 hall effect Ampere meter
 * XL7015 DC step down converter
