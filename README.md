@@ -6,7 +6,7 @@ The power monitor is plugged in between battery and hoverboard electronics with 
 
 The hoverboard power monitor is built around an Arduino Nano and it is programmed with the Arduino IDE 1.8.11.
 
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device" width="33%" height="30%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/sd_slot.jpg" alt="SD card slot" width="33%" height="30%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/buttons.jpg" alt="button interface" width="33%" height="30%">
+<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device" width="32%" height="30%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/sd_slot.jpg" alt="SD card slot" width="32%" height="30%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/buttons.jpg" alt="button interface" width="32%" height="30%">
 
 I've also programmed a visualizer in Processing 3.5.4. This program reads logfiles and creates a timing-correct sequence of png's, which can be superimposed onto a video clip. 
 
