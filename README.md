@@ -36,7 +36,7 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 
 Here's the circuit diagram:
 
-![alt text](https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/power_monitor_schematics.jpg "power monitor schematics")
+![alt text](https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/hoverboard_power_monitor_schematics.jpg "power monitor schematics")
 
 For building the case, I used some Forex (PVC foam board). This can be easily cut with a utility knife and the flat pieces are all held together with zip ties. This goes faster than 3D printing and if you drop it, it doesn't break.
 
