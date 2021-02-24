@@ -1,6 +1,6 @@
 # Hoverboard Power Monitor
 
-I wanted to gain a better understanding of the power consumption of my hoverboard during different riding situations. For that reason, I built a **hoverboard power monitor**, which is a power meter and data logger. The device measures Amperes and Voltage and calculates the current power consumption in Watts. The measurements are shown as numbers and as oscillograms on a little TFT display. They can also be logged on an SD-card with a temporary resolution of about 10Hz. A built-in real-time clock makes it easy to match the data with a video clip of the ride.
+I wanted to gain a better understanding of the power consumption of my hoverboard during different riding situations. For that reason, I built a **hoverboard power monitor**, which is a power meter and data logger. The device measures Amperes and Voltage and calculates the current power consumption in Watts. The measurements are shown as numbers and as oscillograms on a little TFT display. They can also be logged on a SD-card with a temporary resolution of about 10Hz. A built-in real-time clock makes it easy to match the data with a video clip of the ride.
 
 The power monitor is plugged in between battery and hoverboard electronics with its XT60 connectors. It is itself powered by the hoverboard battery. Besides recording the power consumption of hoverboard or scooter rides, the device can also record the charging process, e.g. if you want to plot charging curves.
 
