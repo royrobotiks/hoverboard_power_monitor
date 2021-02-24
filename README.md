@@ -38,13 +38,13 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 
 Let's have a look at the schematic above: 
 
-The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made from 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
+The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made of 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
 
 The Arduino senses the battery voltage via a 1:10 voltage divider on pin A1. The Amperes are sensed via an analog voltage on pin A0.
 
 <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/modules_.jpg" alt="modules" width="49%" height="49%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/case_.jpg" alt="case" width="49%" height="49%">
 
-For building the case, I used some Forex (PVC foam board). This can be easily cut with a utility knife and the flat pieces are all held together with zip ties. This goes faster than 3D printing and if you drop it, it doesn't break.
+For building the case, I used some Forex (PVC foam board). This can be easily cut with a utility knife and the flat pieces are all held together with zip ties. This goes faster than 3D printing and if you drop the thing, it doesn't break.
 
 
 
