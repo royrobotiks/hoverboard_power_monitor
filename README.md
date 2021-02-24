@@ -21,18 +21,18 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 * Arduino Nano (clone)
 * DS1307 Realtime clock 
 * 1.8" SPI TFT 128x160 (KMR-1.8 SPI) TFT display with SD card slot
-* ACS 712 hall effect Ampere meter
+* ACS 712 Hall effect Ampere meter
 * XL7015 DC step down converter
-* 10A fuse + fuse mount
-* 5 x 1K resistors
-* 4 x 2K resistors
-* 1 x 10K resistor
-* 1 x 22 Ohm resistor
-* 3 buttons
-* 1 piezo speaker
-* 1 big capacitor (I used a 1F 5.5V, which is overkill - but it was smiling at me when I looked into the capacitors box)
+* 10A Fuse + fuse mount
+* 5 x 1K Resistors
+* 4 x 2K Resistors
+* 1 x 10K Resistor
+* 1 x 22 Ohm Resistor
+* 3 Buttons
+* 1 Piezo speaker
+* 1 Big capacitor (I used a 1F 5.5V, which is overkill - but it was smiling at me when I looked into the capacitors box)
 * XT60 connectors 
-* perfboard
+* Perfboard
 
 ![alt text](https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/hoverboard_power_monitor_schematics.jpg "power monitor schematics")
 
