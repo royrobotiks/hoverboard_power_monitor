@@ -13,7 +13,5 @@ I've also programmed a visualizer in Processing 3.5.4. Based on a logfile, this 
 
 
  
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device" width="30%" height="30%">
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/sd_slot.jpg" alt="SD card slot" width="30%" height="30%">
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/buttons.jpg" alt="button interface" width="30%" height="30%">
+<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device" width="30%" height="30%"><img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/sd_slot.jpg" alt="SD card slot" width="30%" height="30%"><img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/buttons.jpg" alt="button interface" width="30%" height="30%">
 
