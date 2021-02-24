@@ -13,7 +13,7 @@ I've also programmed a visualizer in Processing 3.5.4. Based on a logfile, this 
 
 
  
-<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device">
+<img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/finished_device.jpg" alt="the finished device" width="45%" height="45%">
 
 
 
