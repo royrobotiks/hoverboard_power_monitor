@@ -16,6 +16,29 @@ I've also programmed a visualizer in Processing 3.5.4. This program reads logfil
 
 ## Building the power monitor
 
+The hardware consists mainly of modules which I slapped together on a perfboard. Here's the parts list:
+
+* Arduino Nano (clone)
+* DS1307 Realtime clock
+* 1.8" SPI TFT 128x160 (KMR-1.8 SPI) TFT display with SD card slot
+* ACS 712 hall effect Ampere meter
+* XL7015 DC step down converter
+* 10A fuse + fuse mount
+* 5 x 1K resistors
+* 4 x 2K resistors
+* 1 x 10K resistor
+* 1 x 22 Ohm resistor
+* 3 buttons
+* 1 piezo speaker
+* 1 big capacitor (I used a 1F 5.5V, which is overkill - but it was smiling at me when I looked into the capacitors box)
+* XT60 connectors 
+* perfboard
+
+Here's the circuit diagram:
+
+![alt text](https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/power_monitor_schematics.jpg "power monitor schematics")
+
+For building the case, I used some Forex (PVC foam board). This can be easily cut with a utility knife and the flat pieces are all held together with zip ties. This goes faster than 3D printing and if you drop it, it doesn't break.
 
 <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/modules_.jpg" alt="modules" width="49%" height="49%"> <img src="https://github.com/royrobotiks/hoverboard_power_monitor/blob/main/images/case_.jpg" alt="case" width="49%" height="49%">
 
