@@ -42,7 +42,7 @@ Let's have a look at the schematic above:
 **_EDIT: There are some connections between Arduino and display missing in this drawing. The reason is that I built the circuit board a while ago without documenting it properly (bad idea!) and then I reverse engineered the drawing (while it seems I forgot a few things!). I guess the table below is correct. It's based on [this drawing](https://mschoeffler.com/wp-content/uploads/2019/06/fritzing_arduino_tft_bb-1920x1432.jpg)._**
 
 |Display|Arduino|
-|:-----:|:-----:|
+|:-----|:-----|
 |SD_CS  | Pin 4 |
 |MOSI   | Pin 11|
 |MISO   | Pin 12|
