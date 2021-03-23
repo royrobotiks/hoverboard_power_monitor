@@ -39,7 +39,7 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 
 Let's have a look at the schematic above: 
 
-[ EDIT: There are some connections between Arduino and display missing in this drawing. Besides the power connections, these are the data, clock and chip select connections: ]
+**_EDIT: There are some connections between Arduino and display missing in this drawing. Besides the power connections, these are the data, clock and chip select connections:__**
 |Display|Arduino|
 |:-----:|:-----:|
 |SD_CS  | Pin 4 |
@@ -51,10 +51,12 @@ Let's have a look at the schematic above:
 |SDA    | Pin 11|
 |A0     | Pin 9 |
 |RESET  | Pin 8 |
-
+**_[See also this drawing](https://mschoeffler.com/wp-content/uploads/2019/06/fritzing_arduino_tft_bb-1920x1432.jpg)_**
 
 
 The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made of 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
+
+**_Another edit: It seems the voltage dividers between display and Arduino aren't necessary. However, it might be safer to include one at least for MOSI / Pin 11_**
 
 The Arduino senses the battery voltage via a 1:10 voltage divider on pin A1. The Amperes are sensed via an analog voltage on pin A0.
 
