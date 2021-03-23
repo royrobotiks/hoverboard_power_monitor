@@ -40,16 +40,19 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 Let's have a look at the schematic above: 
 
 [ EDIT: There are some connections between Arduino and display missing in this drawing. Besides the power connections, these are the data, clock and chip select connections: ]
+|Display|Arduino|
+|:-----:|:-----:|
+|SD_CS  | Pin 4 |
+|MOSI   | Pin 11|
+|MISO   | Pin 12|
+|SCK    | Pin 13|
+|CS     | Pin 10|
+|SCL    | Pin 13|
+|SDA    | Pin 11|
+|A0     | Pin 9 |
+|RESET  | Pin 8 |
 
-SD_CS  - Pin 4
-MOSI   - Pin 11
-MISO   - Pin 12
-SCK    - Pin 13
-CS     - Pin 10
-SCL    - Pin 13
-SDA    - Pin 11
-A0     - Pin 9
-RESET  - Pin 8
+
 
 The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made of 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
 
