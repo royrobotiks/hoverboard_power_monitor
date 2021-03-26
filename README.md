@@ -53,7 +53,7 @@ Let's have a look at the schematic above:
 |A0     | Pin 9 |
 |RESET  | Pin 8 |
 
-![alt text](https://raw.githubusercontent.com/royrobotiks/hoverboard_power_monitor/main/images/kmr1_8_tft_arduino_schematic.jpg "KMR1.8 to Arduino connection diagram")
+<img src="https://raw.githubusercontent.com/royrobotiks/hoverboard_power_monitor/main/images/kmr1_8_tft_arduino_schematic.jpg" alt="KMR1.8 to Arduino connection diagram" width="32%" height="32%">
 
 The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made of 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
 
