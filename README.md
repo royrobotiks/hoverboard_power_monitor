@@ -39,7 +39,7 @@ The hardware consists mainly of modules which I slapped together on a perfboard.
 
 Let's have a look at the schematic above: 
 
-**_EDIT: There are some connections between Arduino and display missing in this drawing. The reason is that I built the circuit board a while ago without documenting it properly (bad idea!) and then I reverse engineered the drawing (while it seems I forgot a few things!). I guess the table below is correct. It's based on [this drawing](https://mschoeffler.com/wp-content/uploads/2019/06/fritzing_arduino_tft_bb-1920x1432.jpg)._**
+**_EDIT: There are some connections between Arduino and display missing in the drawing above. The reason is that I built the circuit board a while ago without documenting it properly (bad idea!) and then I reverse engineered the drawing (while it seems I forgot a few things!). Below is a correct table and an updated schematic for the data connection between the KMR1.8 display and the Arduino_**
 
 |Display|Arduino|
 |:-----|:-----|
@@ -53,11 +53,10 @@ Let's have a look at the schematic above:
 |A0     | Pin 9 |
 |RESET  | Pin 8 |
 
-
+![alt text](https://raw.githubusercontent.com/royrobotiks/hoverboard_power_monitor/main/kmr1_8_tft_arduino_schematic.jpg"KMR1.8 to Arduino connection diagram")
 
 The Arduino uses a different logic voltage than the display. Therefore, all the signals from the Arduino to the display go through a voltage divider, made of 1K and 2K resistors. The additional 22 Ohm resistor at the display is there to protect the LED's of the backglight.  
 
-**_ANOTHER EDIT: It seems the voltage dividers between display and Arduino aren't necessary. However, it might be safer to include one at least for MOSI / Pin 11_**
 
 The Arduino senses the battery voltage via a 1:10 voltage divider on pin A1. The Amperes are sensed via an analog voltage on pin A0.
 
